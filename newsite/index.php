@@ -141,7 +141,7 @@
                         <div class="gap"></div>
         
                         <div id="bands" class="row">
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                 <div class="center team-member">
                                     <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/bluemiracle.jpg" alt="Blue Miracle">
                                     <div class="team-content fade-up">
@@ -151,7 +151,7 @@
                                 </div>
                             </div>
         
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                 <div class="center team-member">
                                     <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/AllMightySenators.jpg" alt="All Mighty Senators">
                                     <div class="team-content fade-up">
@@ -160,7 +160,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                 <div class="center team-member">
                                     <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/jelloboys.jpg" alt="Jello Boys">
                                     <div class="team-content fade-up">
@@ -169,7 +169,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
                                         <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Righteous-Ramblers.jpg" alt="Righteous Ramblers">
                                         <div class="team-content fade-up">
@@ -178,7 +178,7 @@
                                         </div>
                                     </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                 <div class="center team-member">
                                     <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Wide-Eyed-Lounge-Cats.jpg" alt="Wide-Eyed Lounge Cats">
                                     <div class="team-content fade-up">
@@ -187,7 +187,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
                                         <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/katie-bowers-band.jpg" alt="katie bowers band">
                                         <div class="team-content fade-up">
@@ -196,7 +196,7 @@
                                         </div>
                                     </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
                                         <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Alan-Marcus-Band.jpg" alt="Alan Marcus Band">
                                         <div class="team-content fade-up">
@@ -206,7 +206,7 @@
                                     </div>
                             </div>
                             
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
                                         <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Josie.jpg" alt="Josie & Landis Expandis">
                                         <div class="team-content fade-up">
@@ -216,7 +216,7 @@
                                     </div>
                             </div>
                             
-                            <div class="col-md-3 col-xs-6">
+                            <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
                                         <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Ruben.jpg" alt="Ruben Dobbs Band of Hendrix">
                                         <div class="team-content fade-up">
