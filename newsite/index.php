@@ -7,6 +7,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Starlight Farm, Monkton, MD - METEOR MUSIC FESTIVAL &amp; BARN DANCE</title>
+
+    <meta property="og:url"                content="http://starlightfarm.com/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="METEOR MUSIC FESTIVAL" />
+    <meta property="og:description"        content="Party two days with awesome music to support a great cause!" />
+    <meta property="og:image"              content="http://www.starlightfarm.com/images/meteor-music-festival.jpg" />
+
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/pe-icons.css" rel="stylesheet">

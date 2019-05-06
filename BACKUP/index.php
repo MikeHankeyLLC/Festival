@@ -15,7 +15,7 @@
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="METEOR MUSIC FESTIVAL" />
     <meta property="og:description"        content="Party all day and into the night with awesome music to support a great cause!" />
-    <!--<meta property="og:image"              content="http://www.starlightfarm.com/img/festival/banner-2017.jpg" />-->
+    <!--<meta property="og:image"              content="http://www.starlightfarm.com/img/meteor-music-festival" />-->
 
  
     <link href="css/bootstrap.min.css" rel="stylesheet">
