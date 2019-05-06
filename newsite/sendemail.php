@@ -46,10 +46,9 @@ try {
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
+    $mail->Subject = 'CONTACT FROM StartlightFarm.com';
+    $mail->Body    = $_POST['comments'] ."<br><br>Sender: " . $_POST['name'] . "<br>Email: " . $_POST['email'];
+    $mail->AltBody = $_POST['comments'] ."<br><br>Sender: " . $_POST['name'] . "<br>Email: " . $_POST['email'];
     $mail->send();
     echo json_encode(array('msg'=>'Message has been sent','success'=>1));
 } catch (Exception $e) {

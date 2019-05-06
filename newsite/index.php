@@ -126,7 +126,7 @@
                                     There will be dozens of musicians jamming and sitting-in throughout the day. All for a great cause.</p>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="./images/poster.jpg" class="img-responsive"/>
+                                    <img src="./images/poster.jpg" class="img-responsive" style="margin:0 auto"/>
                                 </div>
 
                             
@@ -181,7 +181,7 @@
                                         <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/Righteous-Ramblers.jpg" alt="Righteous Ramblers">
                                         <div class="team-content fade-up">
                                             <h5>Righteous Ramblers</h5>
-                                            <p>Country Rock</p>
+                                            <p>Americana</p>
                                         </div>
                                     </div>
                             </div>
@@ -200,7 +200,7 @@
                                         <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/katie-bowers-band.jpg" alt="katie bowers band">
                                         <div class="team-content fade-up">
                                             <h5>Katie Bowers Band</h5>
-                                            <p>Country</p>
+                                            <p>Rock &amp; Blues</p>
                                         </div>
                                     </div>
                             </div>
@@ -210,7 +210,7 @@
                                         <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/Alan-Marcus-Band.jpg" alt="Alan Marcus Band">
                                         <div class="team-content fade-up">
                                             <h5>Alan Marcus Band</h5>
-                                            <p>Old-school Rock</p>
+                                            <p>Old School Blues-Rock</p>
                                         </div>
                                     </div>
                             </div>

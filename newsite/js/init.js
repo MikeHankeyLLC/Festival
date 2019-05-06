@@ -161,13 +161,13 @@ jQuery(document).ready(function($){
       comments: $('#comments').val()
     },
       function(data){
-      
+        data  = jQuery.parseJSON(data);
         if(data.success==1) {
-          $("#message_info").addClass('alert alert-danger');
-        } else {
           $("#message_info").addClass('alert alert-success');
+        } else {
+          $("#message_info").addClass('alert alert-danger');
         }
-      
+       
         document.getElementById('message_info').innerHTML = data.msg;
         $('#message_info').slideDown('slow');
         $('#submit').removeAttr('disabled');
