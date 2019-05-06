@@ -1,0 +1,351 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  font-size:14px;
+  color: #263b84;;
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top:0;
+}
+
+	h2.nmt {
+		margin-top:0;	
+	}
+
+.lead{font-size:16px}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+#illus, #illus-small  {
+  position: relative;
+  min-width: 100%;
+}
+
+#illus-small {
+	height:80px;	
+}
+
+
+/* Barndance bg */
+.barndance  {
+	background-image: url("../img/bg/bg2.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center 100%;
+	-webkit-box-shadow: inset 0px 0px 285px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0px 0px 285px rgba(0,0,0,0.4);
+	box-shadow: inset 0px 0px 285px rgba(0,0,0,0.4);
+}
+
+	.barndance .full-screen-illus-title {
+		margin:0 auto 0;	
+	}
+	.barndance p {
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 25px;
+		text-align: center;
+		line-height: 1.2;
+		font-weight: bold;
+		margin-top:50px;
+	}
+
+
+/* CONTAINERS
+-------------------------------------------------- */
+	.one-page-container {
+		  padding-top:50px;
+		  padding-bottom:50px;
+	}
+	
+		.one-page-container h2 {
+		  font-weight: 300;
+		  line-height: 1;
+		  letter-spacing: -1px;
+		  font-size:46px;	
+		  margin-bottom:20px
+		}
+		
+		.grey-container {
+			background:#f5f5f5;	
+			border-top:1px solid #fff;
+		}
+		
+		.salmon-container {
+			background:#f6f3e5;
+			color:#3d3d3d;
+		}
+		
+		.blue-container {
+			background:#091233;
+			color:#fff;
+		}
+
+		.white-shaded-container {
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			background:#fff;
+			padding:30px;
+		}
+
+.page-title-holder {
+	background: #089ddd;
+	color: #fff;
+	padding:10px 0
+}
+
+	.page-title-holder h1 {
+		margin:0;
+  		font-family: 'Open Sans', sans-serif;
+	}
+
+/* FOOTER
+-------------------------------------------------- */
+footer  {
+	padding:15px 0
+}
+
+	footer  p {
+		padding-bottom:0;
+		color:#d7d7d7;
+	}
+	
+	/* Back to top */
+	#back-to-top {
+		position:fixed;
+		right:0px;
+		bottom:70px;
+		color:#fff;	
+		text-align:center;
+		background-repeat: repeat;
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA9JREFUeNpiYGBgaAAIMAAAhQCB69VMmQAAAABJRU5ErkJggg==);
+		border-radius:5px 0 0 5px;
+		padding:0 5px 10px 10px;
+		display:none;
+	
+	}
+	
+		#back-to-top .glyphicon {
+			font-size:40px;
+			display:block;	
+		}
+		
+		#back-to-top a {
+			color:#fff;
+			display:block;	
+			opacity:.8;
+		}
+		
+		#back-to-top a:hover {
+			text-decoration:none;
+			opacity:1;
+		}
+
+
+/* BUTTONS
+-------------------------------------------------- */
+.btn-blue {
+	background: #089ddd;
+	background: -moz-linear-gradient(top, #163170 0%, #0d1e46 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#163170), color-stop(100%,#0d1e46));
+	background: -webkit-linear-gradient(top, #163170 0%,#0d1e46 100%);
+	background: -o-linear-gradient(top, #163170 0%,#0d1e46 100%);
+	background: -ms-linear-gradient(top, #163170 0%,#0d1e46 100%);
+	background: linear-gradient(to bottom, #163170 0%,#0d1e46 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#163170', endColorstr='#0d1e46',GradientType=0 );
+	color: #fff;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	padding: 8px 35px;
+	zoom: 1;
+	text-transform: uppercase;
+	font-size:16px;
+	color:#fff;
+	border: none;
+	box-shadow: none;
+	margin:5px 0 10px;
+}
+
+	.btn-blue .btn-label {
+		font-size: 19px;
+		font-weight:bold;
+		display:block;
+	}
+	
+	.btn-blue:hover {
+		color:#fff;
+		background: #006ed1;
+		background: -moz-linear-gradient(top, #006ed1 0%, #089ddd 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006ed1), color-stop(100%,#089ddd));
+		background: -webkit-linear-gradient(top, #006ed1 0%,#089ddd 100%);
+		background: -o-linear-gradient(top, #006ed1 0%,#089ddd 100%);
+		background: -ms-linear-gradient(top, #006ed1 0%,#089ddd 100%);
+		background: linear-gradient(to bottom, #006ed1 0%,#089ddd 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006ed1', endColorstr='#089ddd',GradientType=0 );
+		text-decoration: none;
+	}
+
+
+
+/* Welcome Text
+------------------------- */
+#tmp_message {
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	padding: 20px;
+	width: 40%;
+	position: absolute;
+	bottom: 20%;
+	top: 3;
+	top: 3;
+	right: 5%;
+	font-size: 18px;
+}
+
+
+/*Header & Divider
+------------------------- */
+
+	/* Logo */
+	.navbar-brand {
+		padding:5px 15px;	
+	}
+
+	/* Header */
+	.navbar-inverse  {
+		background-color: #091233;
+		border-color: #091233;
+	    font-family: 'Open Sans', sans-serif;
+		
+	}
+		.navbar-nav>li>a {
+			font-size:15px;
+			line-height: 30px;
+		}
+		
+		.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+			background: transparent;
+		}	
+		
+		.navbar {
+			border-radius:0;
+			margin-bottom: 0px;	
+			border:none;
+			border-radius: 0;
+		
+		}
+
+	.divider {
+		text-align:center;
+		font-size:18px;
+		color:#e0dfdf;
+		padding:20px 0;	
+		background:#0d1e46;
+		text-transform:uppercase
+	}
+
+
+		#second-divider {
+			padding: 0 0 5px;
+			background: #fff;
+			text-align: left;	
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+		}
+
+/* Bands
+------------------------- */
+.band {
+	margin-top:10px;	
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+
+
+@media (max-width: 600px) {
+#tmp_message {
+	position: relative;
+	width: 100%;
+	left: 0;
+	font-size: 15px;
+}
+	
+	.barndance p {
+		font-size: 14px;
+		margin: 10px 0 40px;
+	}
+	
+	.divider {
+		font-size:15px;	
+	}
+ 	
+	.one-page-container {
+		padding-top: 20px;
+		padding-bottom: 5px;
+	}
+	
+	.one-page-container h2 {
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	
+	.lead { 
+		font-size:14px
+	}
+	
+	#back-to-top {
+		display:none;
+		opacity:0;
+		visibility:hidden;
+	}
+	
+	.white-shaded-container {
+		padding: 20px 5px 20px;
+		margin: 10px;
+	}
+
+}
+

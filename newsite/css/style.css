@@ -2,6 +2,21 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,300);
 
+
+@font-face {
+    font-family: 'Bellybeans FG';
+    src: url('../fonts/BellybeansFG.eot');
+    src: url('../fonts/BellybeansFG.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BellybeansFG.woff2') format('woff2'),
+        url('../fonts/BellybeansFG.woff') format('woff'),
+        url('../fonts/BellybeansFG.ttf') format('truetype'),
+        url('../fonts/BellybeansFG.svg#BellybeansFG') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 .clearfix {
     zoom: 1;
 }
@@ -170,12 +185,11 @@ blockquote {
     margin-top: 30px;
 }
 
+
 #main-slider .carousel img {
-   
     max-width: 300px;
     margin:1rem 0 2rem;
 }
-
 
 
 @media(max-width:725px) {

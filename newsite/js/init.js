@@ -1,25 +1,4 @@
-/*-----------------------------------------------------------------------------------*/
-/*  PORTFOLIO
-/*-----------------------------------------------------------------------------------*/
-$(window).load(function(){
-  'use strict';
-  var portfolio_selectors = $('.portfolio-filter li a');
-  if(portfolio_selectors!='undefined'){
-    var portfolio = $('.portfolio-items');
-    portfolio.isotope({
-      itemSelector : 'li',
-      layoutMode : 'fitRows'
-    });
-    portfolio_selectors.on('click', function(){
-      portfolio_selectors.removeClass('active');
-      $(this).addClass('active');
-      var selector = $(this).attr('data-filter');
-      portfolio.isotope({ filter: selector });
-      return false;
-    });
-  }
-});
-
+ 
 jQuery(function($) {
 'use strict';
 	$('.tile-progress .tile-header').matchHeight();
@@ -188,11 +167,13 @@ $(document).ready(function() {
 jQuery(document).ready(function($){
 'use strict';
 
-  $('#contactform').submit(function(){
+  $('#contactform').submit(function(){ 
     var action = $(this).attr('action');
-    $("#message").slideUp(750,function() {
-    $('#message').hide();
-    $('#submit').attr('disabled','disabled');
+    $("#message_info").slideUp(750,function() {
+       $('#message_info').hide().removeClass("alert").removeClass('alert-danger').removeClass('alert-success');
+      $('#submit').attr('disabled','disabled');
+ 
+ 
     $.post(action, {
       name: $('#name').val(),
       email: $('#email').val(),
@@ -200,10 +181,17 @@ jQuery(document).ready(function($){
       comments: $('#comments').val()
     },
       function(data){
-        document.getElementById('message').innerHTML = data;
-        $('#message').slideDown('slow');
+      
+        if(data.success==1) {
+          $("#message_info").addClass('alert alert-danger');
+        } else {
+          $("#message_info").addClass('alert alert-success');
+        }
+      
+        document.getElementById('message_info').innerHTML = data.msg;
+        $('#message_info').slideDown('slow');
         $('#submit').removeAttr('disabled');
-        if(data.match('success') != null) $('#contactform').slideUp('slow');
+       // if(data.match('success') != null) $('#contactform').slideUp('slow');
         $(window).trigger('resize');
       }
     );
