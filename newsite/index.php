@@ -21,7 +21,7 @@
 	<link rel="shortcut icon" href="./images/ico/favicon.png">
 
     <style>
-    @font-face {
+        @font-face {
             font-family: 'Bellybeans FG';
             src: url('./fonts/BellybeansFG.eot');
             src: url('./fonts/BellybeansFG.eot?#iefix') format('embedded-opentype'),
@@ -34,7 +34,13 @@
         }
 
     </style>
-
+    <?
+        $iphone = false;
+        if( stristr($_SERVER['HTTP_USER_AGENT'],'iphone') || strstr($_SERVER['HTTP_USER_AGENT'],'iphone') ):
+            $iphone = true;
+        endif;
+ 
+    ?>
     <script type="text/javascript">
     jQuery(document).ready(function($){
 	'use strict';
@@ -143,7 +149,7 @@
                         <div id="bands" class="row">
                             <div class="col-md-4 col-xs-6">
                                 <div class="center team-member">
-                                    <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/bluemiracle.jpg" alt="Blue Miracle">
+                                    <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/bluemiracle.jpg" alt="Blue Miracle">
                                     <div class="team-content fade-up">
                                         <h5>Blue Miracle</h5>
                                         <p>Blues Rock.</p>
@@ -153,16 +159,17 @@
         
                             <div class="col-md-4 col-xs-6">
                                 <div class="center team-member">
-                                    <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/AllMightySenators.jpg" alt="All Mighty Senators">
+                                    <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/AllMightySenators.jpg" alt="All Mighty Senators">
                                     <div class="team-content fade-up">
                                         <h5>All Mighty Senators</h5>
                                         <p>Rhythm and Blues.</p>
                                     </div>
                                 </div>
                             </div>
+                            <span class="clearfix visible-xs-block"></span>
                             <div class="col-md-4 col-xs-6">
                                 <div class="center team-member">
-                                    <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/jelloboys.jpg" alt="Jello Boys">
+                                    <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/jelloboys.jpg" alt="Jello Boys">
                                     <div class="team-content fade-up">
                                         <h5>Jello Boys</h5>
                                         <p>Rock</p>
@@ -171,16 +178,17 @@
                             </div>
                             <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
-                                        <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Righteous-Ramblers.jpg" alt="Righteous Ramblers">
+                                        <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/Righteous-Ramblers.jpg" alt="Righteous Ramblers">
                                         <div class="team-content fade-up">
                                             <h5>Righteous Ramblers</h5>
                                             <p>Country Rock</p>
                                         </div>
                                     </div>
                             </div>
+                            <span class="clearfix visible-xs-block"></span>
                             <div class="col-md-4 col-xs-6">
                                 <div class="center team-member">
-                                    <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Wide-Eyed-Lounge-Cats.jpg" alt="Wide-Eyed Lounge Cats">
+                                    <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/Wide-Eyed-Lounge-Cats.jpg" alt="Wide-Eyed Lounge Cats">
                                     <div class="team-content fade-up">
                                         <h5>Wide-Eyed Lounge Cats</h5>
                                         <p>American Jazz </p>
@@ -189,16 +197,17 @@
                             </div>
                             <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
-                                        <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/katie-bowers-band.jpg" alt="katie bowers band">
+                                        <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/katie-bowers-band.jpg" alt="katie bowers band">
                                         <div class="team-content fade-up">
                                             <h5>Katie Bowers Band</h5>
                                             <p>Country</p>
                                         </div>
                                     </div>
                             </div>
+                            <span class="clearfix visible-xs-block"></span>
                             <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
-                                        <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Alan-Marcus-Band.jpg" alt="Alan Marcus Band">
+                                        <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/Alan-Marcus-Band.jpg" alt="Alan Marcus Band">
                                         <div class="team-content fade-up">
                                             <h5>Alan Marcus Band</h5>
                                             <p>Old-school Rock</p>
@@ -208,14 +217,14 @@
                             
                             <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
-                                        <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Josie.jpg" alt="Josie & Landis Expandis">
+                                        <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/Josie.jpg" alt="Josie & Landis Expandis">
                                         <div class="team-content fade-up">
                                             <h5>Wake up Woodstock w/ Josie &amp; Landis Expandis</h5>
                                             <p>Rock</p>
                                         </div>
                                     </div>
                             </div>
-                            
+                            <span class="clearfix visible-xs-block"></span>
                             <div class="col-md-4 col-xs-6">
                                     <div class="center team-member">
                                         <img class="img-responsive img-thumbnail bounce-in" src="./images/bands/Ruben.jpg" alt="Ruben Dobbs Band of Hendrix">
