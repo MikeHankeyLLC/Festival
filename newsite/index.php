@@ -112,7 +112,7 @@
                                     <div class="col-md-8">
                                                                             <p>Meteor Fest Ramblestock is a mini-festival recreation of the original Woodstock concert of 1969 setup as a charity fundraising event.</p> 
 
-                                    <p>We are raising money for  <a href="https://www.umms.org/uch/health-services/cancer" target="_blank">UMD's Kaufman Cancer Center</a> in Harford County. Funds raised from this event will directly benefit people in our community fighting cancer. </p>
+                                    <p>We are raising money for  <a href="https://www.umms.org/uch/health-services/cancer" target="_blank">University of Maryland Upper Chesapeake Health Kaufman Cancer Center</a> in Harford County. Funds raised from this event will directly benefit people in our community fighting cancer. </p>
                                     
                                     <p>This is our 6th year hosting this party and to date we have raised more than $90,000! With a little help from our friends we will get by the $100k mark and have our best year ever!</p>
                                     
