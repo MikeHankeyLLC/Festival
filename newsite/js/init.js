@@ -102,27 +102,7 @@ jQuery(document).ready(function($){
 /*-----------------------------------------------------------------------------------*/
 /*  ANIMATE
 /*-----------------------------------------------------------------------------------*/
-jQuery(document).ready(function($){
-'use strict';
-  jQuery('.fade-up, .fade-down, .bounce-in, .flip-in').addClass('no-display');
-  jQuery('.bounce-in').one('inview', function() { 
-    jQuery(this).addClass('animated bounceIn appear');
-  });
-  jQuery('.flip-in').one('inview', function() { 
-    jQuery(this).addClass('animated flipInY appear');
-  });
-  jQuery('.counter').counterUp({
-    delay: 10,
-    time: 1000
-  });
-  jQuery('.fade-up').one('inview', function() {
-    jQuery(this).addClass('animated fadeInUp appear');
-  });
-  jQuery('.fade-down').one('inview', function() {
-    jQuery(this).addClass('animated fadeInDown appear');
-  });
 
-});
 
 /*-----------------------------------------------------------------------------------*/
 /*  SNOOOOOOOOTH SCROLL - SO SMOOTH
