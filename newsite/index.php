@@ -124,7 +124,7 @@
                         <div class="row">
                             <div class="col-md-10 col-md-offset-1 fade-up row">
                                     <div class="col-md-8">
-                                                                            <p>Meteor Fest Ramblestock is a mini-festival recreation of the original Woodstock concert of 1969 setup as a charity fundraising event.</p> 
+                                    <p>Meteor Fest Ramblestock is a mini-festival recreation of the original Woodstock concert of 1969 setup as a charity fundraising event.</p> 
 
                                     <p>We are raising money for  <a href="https://www.umms.org/uch/health-services/cancer" target="_blank">University of Maryland Upper Chesapeake Health Kaufman Cancer Center</a> in Harford County. Funds raised from this event will directly benefit people in our community fighting cancer. </p>
                                     
@@ -132,15 +132,43 @@
                                     
                                     <p>To celebrate the spirit of 1969, local Annapolis and Baltimore musicians have come together to recreate and represent most of the acts from the original concert: Santana, Sly & The Family Stone, The Grateful Dead, The Who, Jimi Hendrix, Janis Joplin, Jefferson Airplane, Joe Cocker, CCR, CSNY, etc. 
                                     There will be dozens of musicians jamming and sitting-in throughout the day. All for a great cause.</p>
+
+
+
                                 </div>
                                 <div class="col-md-4">
                                     <img src="./images/poster.jpg" class="img-responsive" style="margin:0 auto"/>
                                 </div>
 
-                            
+                                <div class="col-md-12">
+                                <p>This is a private event and all guests must be registered in advance to attend. 
+                                    To register for this event make a donation through the link below.
+                                     There is no minimum or limit to your donation, but to maximize the fundraising 
+                                     effort we are seeking an average of at least <strong>a $50 donation for one day</strong> or <strong>$100 for two day pass</strong> for each guest. 
+                                    </p>
+                                
+                                     <p><strong>Make your donation soon, we have limited capacity and this event will likely 'sell out'!</strong></p>
+                                    </div>
                             </div>
-                            <div class="col-md-4 fade-up">
-        
+                            
+                            
+
+                            <div class="col-md-10 col-md-offset-1 fade-up row no-display animated fadeInUp appear" style="background:url(./images/main_bg.jpg);color: #fff;">
+                            <div style="padding:2rem 2rem 1rem">        
+<p><strong>Donations must be made for entry. Suggested donation is $50 for one day or $100 for two day pass.<br/>
+
+ Donations of $50 or more will get free beer pass. Limited camping is available, <a href="#contact" style="color:#fff;text-decoration:underline">contact us</a> for more info. </strong></p>
+
+
+<a href="http://givetoday.uchfoundation.org/2019MMF" class="btn btn-lg" style="
+    font-size: 2rem;
+    color: #fff;
+    border: 2px solid #fff;
+    display: block;
+    margin: 0 auto 1rem;
+    max-width: 400px;
+">MAKE A DONATION NOW<br></a><p> Once you have registered, your name will be added to the guest list and you will be emailed the farm address and event info.</p>
+                                    </div>
                             </div>
                         </div>
                        <div class="gap"></div>
