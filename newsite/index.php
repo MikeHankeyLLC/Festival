@@ -227,7 +227,7 @@
                                     <img class="img-responsive img-thumbnail <? if(!$iphone):?>bounce-in<?endif;?>" src="./images/bands/Wide-Eyed-Lounge-Cats.jpg" alt="Wide-Eyed Lounge Cats">
                                     <div class="team-content fade-up">
                                         <h5>Wide-Eyed Lounge Cats</h5>
-                                        <p>American Jazz </p>
+                                        <p>Jazz'am</p>
                                     </div>
                                 </div>
                             </div>
